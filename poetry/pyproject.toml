@@ -8,8 +8,6 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.11"
-sqlalchemy = "^2.0.31"
-
 
 [tool.poetry.group.dev.dependencies]
 ruff = "0.5.1"
