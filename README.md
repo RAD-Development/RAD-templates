@@ -14,3 +14,8 @@ $ nix flake new --template github:RAD-Development/RAD-templates#poetry ./my-new-
 
 Each template ships with a tutorial (`README.md`) which explains in details how
 to use it and extend it.
+
+## Contributing
+
+`nixfmt-rfc-style` is used for formatting the Nix files. Please run the same
+before submitting any PRs.
