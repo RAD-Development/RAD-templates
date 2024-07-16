@@ -1,0 +1,22 @@
+# One CLI to format the code tree - https://github.com/numtide/treefmt
+
+[global]
+# Glob patterns of files to exclude
+excludes = [ ".git/" ]
+
+
+[formatter.nixfmt]
+# Formatter to run
+command = "nixfmt"
+# Command-line arguments for the command
+#options = []
+# Glob pattern of files to include
+includes = [ "*.nix" ]
+
+[formatter.ruff]
+# Formatter to run
+command = "ruff"
+# Command-line arguments for the command
+options = ["format"]
+# Glob pattern of files to include
+includes = [ "*.py" ]
