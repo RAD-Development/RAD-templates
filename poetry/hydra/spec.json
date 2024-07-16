@@ -1,7 +1,7 @@
 {
   "enabled": 1,
   "hidden": false,
-  "description": "Canvas grit automation",
+  "description": "Nix template using poetry2nix",
   "nixexprinput": "nixexpr",
   "nixexprpath": "hydra/jobsets.nix",
   "checkinterval": 60,
@@ -12,7 +12,7 @@
   "type": 0,
   "inputs": {
     "nixexpr": {
-      "value": "https://github.com/ahuston-0/canvas_grit_automation master",
+      "value": "https://github.com/RAD-Development/RAD-templates main",
       "type": "git",
       "emailresponsible": false
     },
@@ -23,12 +23,12 @@
     },
     "pulls": {
       "type": "githubpulls",
-      "value": "ahuston-0 canvas_grit_automation",
+      "value": "RAD-Development RAD-templates",
       "emailresponsible": false
     },
     "branches": {
       "type": "github_refs",
-      "value": "ahuston-0 canvas_grit_automation heads -",
+      "value": "RAD-Development RAD-templates heads -",
       "emailresponsible": false
     }
   }

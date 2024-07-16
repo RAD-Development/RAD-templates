@@ -19,7 +19,7 @@ let
 
   prs = readJSONFile pulls;
   refs = readJSONFile branches;
-  repo = "ahuston-0/canvas_grit_automation";
+  repo = "RAD-Development/RAD-templates";
 
   # template for creating a job
   makeJob =
